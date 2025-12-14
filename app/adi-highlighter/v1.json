@@ -85,8 +85,8 @@
       "provider": "google",
       "model": "gemini-2.5-flash",
       "tags": ["chat", "code", "vision", "fast"],
-      "inputPricePerMtok": 0.15,
-      "outputPricePerMtok": 0.6,
+      "inputPricePerMtok": 0.30,
+      "outputPricePerMtok": 2.50,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536
     },
@@ -103,8 +103,8 @@
       "provider": "google",
       "model": "gemini-3-pro-preview",
       "tags": ["chat", "code", "vision", "reasoning", "preview"],
-      "inputPricePerMtok": 1.25,
-      "outputPricePerMtok": 10.0,
+      "inputPricePerMtok": 2.0,
+      "outputPricePerMtok": 12.0,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536
     }
