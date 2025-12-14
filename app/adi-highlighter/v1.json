@@ -4,49 +4,57 @@
       "provider": "anthropic",
       "model": "claude-sonnet-4-5-20250929",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 3.0
+      "pricePerMtok": 3.0,
+      "contextWindow": 200000
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-5-20251101",
       "tags": ["chat", "code", "vision", "reasoning"],
-      "pricePerMtok": 15.0
+      "pricePerMtok": 15.0,
+      "contextWindow": 200000
     },
     {
       "provider": "anthropic",
       "model": "claude-3-5-haiku-20241022",
       "tags": ["chat", "code", "fast"],
-      "pricePerMtok": 0.8
+      "pricePerMtok": 0.8,
+      "contextWindow": 200000
     },
     {
       "provider": "openai",
       "model": "gpt-4o",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 2.5
+      "pricePerMtok": 2.5,
+      "contextWindow": 128000
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
       "tags": ["chat", "code", "fast"],
-      "pricePerMtok": 0.15
+      "pricePerMtok": 0.15,
+      "contextWindow": 128000
     },
     {
       "provider": "openai",
       "model": "o1",
       "tags": ["chat", "code", "reasoning"],
-      "pricePerMtok": 15.0
+      "pricePerMtok": 15.0,
+      "contextWindow": 200000
     },
     {
       "provider": "google",
       "model": "gemini-2.0-flash",
       "tags": ["chat", "code", "vision", "fast"],
-      "pricePerMtok": 0.075
+      "pricePerMtok": 0.075,
+      "contextWindow": 1000000
     },
     {
       "provider": "google",
       "model": "gemini-1.5-pro",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 1.25
+      "pricePerMtok": 1.25,
+      "contextWindow": 2000000
     }
   ],
   "providers": [
