@@ -4,56 +4,64 @@
       "provider": "anthropic",
       "model": "claude-sonnet-4-5-20250929",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 3.0,
+      "inputPricePerMtok": 3.0,
+      "outputPricePerMtok": 15.0,
       "contextWindow": 200000
     },
     {
       "provider": "anthropic",
       "model": "claude-opus-4-5-20251101",
       "tags": ["chat", "code", "vision", "reasoning"],
-      "pricePerMtok": 15.0,
+      "inputPricePerMtok": 5.0,
+      "outputPricePerMtok": 25.0,
       "contextWindow": 200000
     },
     {
       "provider": "anthropic",
       "model": "claude-3-5-haiku-20241022",
       "tags": ["chat", "code", "fast"],
-      "pricePerMtok": 0.8,
+      "inputPricePerMtok": 1.0,
+      "outputPricePerMtok": 5.0,
       "contextWindow": 200000
     },
     {
       "provider": "openai",
       "model": "gpt-4o",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 2.5,
+      "inputPricePerMtok": 2.5,
+      "outputPricePerMtok": 10.0,
       "contextWindow": 128000
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
       "tags": ["chat", "code", "fast"],
-      "pricePerMtok": 0.15,
+      "inputPricePerMtok": 0.15,
+      "outputPricePerMtok": 0.6,
       "contextWindow": 128000
     },
     {
       "provider": "openai",
       "model": "o1",
       "tags": ["chat", "code", "reasoning"],
-      "pricePerMtok": 15.0,
+      "inputPricePerMtok": 15.0,
+      "outputPricePerMtok": 60.0,
       "contextWindow": 200000
     },
     {
       "provider": "google",
       "model": "gemini-2.0-flash",
       "tags": ["chat", "code", "vision", "fast"],
-      "pricePerMtok": 0.075,
+      "inputPricePerMtok": 0.075,
+      "outputPricePerMtok": 0.3,
       "contextWindow": 1000000
     },
     {
       "provider": "google",
       "model": "gemini-1.5-pro",
       "tags": ["chat", "code", "vision"],
-      "pricePerMtok": 1.25,
+      "inputPricePerMtok": 1.25,
+      "outputPricePerMtok": 5.0,
       "contextWindow": 2000000
     }
   ],
