@@ -1,0 +1,7 @@
+{
+  "name": "adi-database",
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/build.ts"
+  }
+}

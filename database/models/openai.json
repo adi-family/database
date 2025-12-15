@@ -1,0 +1,82 @@
+[
+  {
+    "model": "gpt-5.2",
+    "tags": ["chat", "code", "vision", "agentic"],
+    "inputPricePerMtok": 1.75,
+    "outputPricePerMtok": 14.0,
+    "contextWindow": 400000,
+    "outputTokenLimit": 128000
+  },
+  {
+    "model": "gpt-5.2-pro",
+    "tags": ["chat", "code", "vision", "reasoning"],
+    "inputPricePerMtok": 21.0,
+    "outputPricePerMtok": 168.0,
+    "contextWindow": 400000,
+    "outputTokenLimit": 128000
+  },
+  {
+    "model": "gpt-5-mini",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 0.25,
+    "outputPricePerMtok": 2.0,
+    "contextWindow": 400000,
+    "outputTokenLimit": 128000
+  },
+  {
+    "model": "gpt-4.1",
+    "tags": ["chat", "code", "vision"],
+    "inputPricePerMtok": 3.0,
+    "outputPricePerMtok": 12.0,
+    "contextWindow": 1000000,
+    "outputTokenLimit": 32768
+  },
+  {
+    "model": "gpt-4.1-mini",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 0.8,
+    "outputPricePerMtok": 3.2,
+    "contextWindow": 1000000,
+    "outputTokenLimit": 32768
+  },
+  {
+    "model": "gpt-4.1-nano",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 0.2,
+    "outputPricePerMtok": 0.8,
+    "contextWindow": 1000000,
+    "outputTokenLimit": 32768
+  },
+  {
+    "model": "o4-mini",
+    "tags": ["chat", "code", "reasoning"],
+    "inputPricePerMtok": 4.0,
+    "outputPricePerMtok": 16.0,
+    "contextWindow": 200000,
+    "outputTokenLimit": 100000
+  },
+  {
+    "model": "gpt-4o",
+    "tags": ["chat", "code", "vision"],
+    "inputPricePerMtok": 2.5,
+    "outputPricePerMtok": 10.0,
+    "contextWindow": 128000,
+    "outputTokenLimit": 16384
+  },
+  {
+    "model": "gpt-4o-mini",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 0.15,
+    "outputPricePerMtok": 0.6,
+    "contextWindow": 128000,
+    "outputTokenLimit": 16384
+  },
+  {
+    "model": "o1",
+    "tags": ["chat", "code", "reasoning"],
+    "inputPricePerMtok": 15.0,
+    "outputPricePerMtok": 60.0,
+    "contextWindow": 200000,
+    "outputTokenLimit": 100000
+  }
+]

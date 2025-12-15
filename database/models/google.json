@@ -1,0 +1,50 @@
+[
+  {
+    "model": "gemini-2.0-flash",
+    "tags": ["chat", "code", "vision", "fast"],
+    "inputPricePerMtok": 0.075,
+    "outputPricePerMtok": 0.3,
+    "contextWindow": 1048576,
+    "outputTokenLimit": 8192
+  },
+  {
+    "model": "gemini-1.5-pro",
+    "tags": ["chat", "code", "vision"],
+    "inputPricePerMtok": 1.25,
+    "outputPricePerMtok": 5.0,
+    "contextWindow": 2097152,
+    "outputTokenLimit": 8192
+  },
+  {
+    "model": "gemini-2.5-pro",
+    "tags": ["chat", "code", "vision", "reasoning"],
+    "inputPricePerMtok": 1.25,
+    "outputPricePerMtok": 10.0,
+    "contextWindow": 1048576,
+    "outputTokenLimit": 65536
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "tags": ["chat", "code", "vision", "fast"],
+    "inputPricePerMtok": 0.30,
+    "outputPricePerMtok": 2.50,
+    "contextWindow": 1048576,
+    "outputTokenLimit": 65536
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 0.075,
+    "outputPricePerMtok": 0.3,
+    "contextWindow": 1048576,
+    "outputTokenLimit": 65536
+  },
+  {
+    "model": "gemini-3-pro-preview",
+    "tags": ["chat", "code", "vision", "reasoning", "preview"],
+    "inputPricePerMtok": 2.0,
+    "outputPricePerMtok": 12.0,
+    "contextWindow": 1048576,
+    "outputTokenLimit": 65536
+  }
+]

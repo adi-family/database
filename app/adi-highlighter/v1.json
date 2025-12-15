@@ -1,175 +1,259 @@
 {
   "models": [
     {
-      "provider": "anthropic",
       "model": "claude-sonnet-4-5",
-      "tags": ["chat", "code", "vision"],
-      "inputPricePerMtok": 3.0,
-      "outputPricePerMtok": 15.0,
+      "tags": [
+        "chat",
+        "code",
+        "vision"
+      ],
+      "inputPricePerMtok": 3,
+      "outputPricePerMtok": 15,
       "contextWindow": 200000,
-      "outputTokenLimit": 64000
+      "outputTokenLimit": 64000,
+      "provider": "anthropic"
     },
     {
-      "provider": "anthropic",
       "model": "claude-opus-4-5",
-      "tags": ["chat", "code", "vision", "reasoning"],
-      "inputPricePerMtok": 5.0,
-      "outputPricePerMtok": 25.0,
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "reasoning"
+      ],
+      "inputPricePerMtok": 5,
+      "outputPricePerMtok": 25,
       "contextWindow": 200000,
-      "outputTokenLimit": 32000
+      "outputTokenLimit": 32000,
+      "provider": "anthropic"
     },
     {
-      "provider": "anthropic",
       "model": "claude-3-5-haiku",
-      "tags": ["chat", "code", "fast"],
-      "inputPricePerMtok": 1.0,
-      "outputPricePerMtok": 5.0,
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
+      "inputPricePerMtok": 1,
+      "outputPricePerMtok": 5,
       "contextWindow": 200000,
-      "outputTokenLimit": 8192
+      "outputTokenLimit": 8192,
+      "provider": "anthropic"
     },
     {
-      "provider": "openai",
       "model": "gpt-5.2",
-      "tags": ["chat", "code", "vision", "agentic"],
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "agentic"
+      ],
       "inputPricePerMtok": 1.75,
-      "outputPricePerMtok": 14.0,
+      "outputPricePerMtok": 14,
       "contextWindow": 400000,
-      "outputTokenLimit": 128000
+      "outputTokenLimit": 128000,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-5.2-pro",
-      "tags": ["chat", "code", "vision", "reasoning"],
-      "inputPricePerMtok": 21.0,
-      "outputPricePerMtok": 168.0,
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "reasoning"
+      ],
+      "inputPricePerMtok": 21,
+      "outputPricePerMtok": 168,
       "contextWindow": 400000,
-      "outputTokenLimit": 128000
+      "outputTokenLimit": 128000,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-5-mini",
-      "tags": ["chat", "code", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
       "inputPricePerMtok": 0.25,
-      "outputPricePerMtok": 2.0,
+      "outputPricePerMtok": 2,
       "contextWindow": 400000,
-      "outputTokenLimit": 128000
+      "outputTokenLimit": 128000,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-4.1",
-      "tags": ["chat", "code", "vision"],
-      "inputPricePerMtok": 3.0,
-      "outputPricePerMtok": 12.0,
+      "tags": [
+        "chat",
+        "code",
+        "vision"
+      ],
+      "inputPricePerMtok": 3,
+      "outputPricePerMtok": 12,
       "contextWindow": 1000000,
-      "outputTokenLimit": 32768
+      "outputTokenLimit": 32768,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-4.1-mini",
-      "tags": ["chat", "code", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
       "inputPricePerMtok": 0.8,
       "outputPricePerMtok": 3.2,
       "contextWindow": 1000000,
-      "outputTokenLimit": 32768
+      "outputTokenLimit": 32768,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-4.1-nano",
-      "tags": ["chat", "code", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
       "inputPricePerMtok": 0.2,
       "outputPricePerMtok": 0.8,
       "contextWindow": 1000000,
-      "outputTokenLimit": 32768
+      "outputTokenLimit": 32768,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "o4-mini",
-      "tags": ["chat", "code", "reasoning"],
-      "inputPricePerMtok": 4.0,
-      "outputPricePerMtok": 16.0,
+      "tags": [
+        "chat",
+        "code",
+        "reasoning"
+      ],
+      "inputPricePerMtok": 4,
+      "outputPricePerMtok": 16,
       "contextWindow": 200000,
-      "outputTokenLimit": 100000
+      "outputTokenLimit": 100000,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-4o",
-      "tags": ["chat", "code", "vision"],
+      "tags": [
+        "chat",
+        "code",
+        "vision"
+      ],
       "inputPricePerMtok": 2.5,
-      "outputPricePerMtok": 10.0,
+      "outputPricePerMtok": 10,
       "contextWindow": 128000,
-      "outputTokenLimit": 16384
+      "outputTokenLimit": 16384,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "gpt-4o-mini",
-      "tags": ["chat", "code", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
       "inputPricePerMtok": 0.15,
       "outputPricePerMtok": 0.6,
       "contextWindow": 128000,
-      "outputTokenLimit": 16384
+      "outputTokenLimit": 16384,
+      "provider": "openai"
     },
     {
-      "provider": "openai",
       "model": "o1",
-      "tags": ["chat", "code", "reasoning"],
-      "inputPricePerMtok": 15.0,
-      "outputPricePerMtok": 60.0,
+      "tags": [
+        "chat",
+        "code",
+        "reasoning"
+      ],
+      "inputPricePerMtok": 15,
+      "outputPricePerMtok": 60,
       "contextWindow": 200000,
-      "outputTokenLimit": 100000
+      "outputTokenLimit": 100000,
+      "provider": "openai"
     },
     {
-      "provider": "google",
       "model": "gemini-2.0-flash",
-      "tags": ["chat", "code", "vision", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "fast"
+      ],
       "inputPricePerMtok": 0.075,
       "outputPricePerMtok": 0.3,
       "contextWindow": 1048576,
-      "outputTokenLimit": 8192
+      "outputTokenLimit": 8192,
+      "provider": "google"
     },
     {
-      "provider": "google",
       "model": "gemini-1.5-pro",
-      "tags": ["chat", "code", "vision"],
+      "tags": [
+        "chat",
+        "code",
+        "vision"
+      ],
       "inputPricePerMtok": 1.25,
-      "outputPricePerMtok": 5.0,
+      "outputPricePerMtok": 5,
       "contextWindow": 2097152,
-      "outputTokenLimit": 8192
+      "outputTokenLimit": 8192,
+      "provider": "google"
     },
     {
-      "provider": "google",
       "model": "gemini-2.5-pro",
-      "tags": ["chat", "code", "vision", "reasoning"],
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "reasoning"
+      ],
       "inputPricePerMtok": 1.25,
-      "outputPricePerMtok": 10.0,
+      "outputPricePerMtok": 10,
       "contextWindow": 1048576,
-      "outputTokenLimit": 65536
+      "outputTokenLimit": 65536,
+      "provider": "google"
     },
     {
-      "provider": "google",
       "model": "gemini-2.5-flash",
-      "tags": ["chat", "code", "vision", "fast"],
-      "inputPricePerMtok": 0.30,
-      "outputPricePerMtok": 2.50,
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "fast"
+      ],
+      "inputPricePerMtok": 0.3,
+      "outputPricePerMtok": 2.5,
       "contextWindow": 1048576,
-      "outputTokenLimit": 65536
+      "outputTokenLimit": 65536,
+      "provider": "google"
     },
     {
-      "provider": "google",
       "model": "gemini-2.5-flash-lite",
-      "tags": ["chat", "code", "fast"],
+      "tags": [
+        "chat",
+        "code",
+        "fast"
+      ],
       "inputPricePerMtok": 0.075,
       "outputPricePerMtok": 0.3,
       "contextWindow": 1048576,
-      "outputTokenLimit": 65536
+      "outputTokenLimit": 65536,
+      "provider": "google"
     },
     {
-      "provider": "google",
       "model": "gemini-3-pro-preview",
-      "tags": ["chat", "code", "vision", "reasoning", "preview"],
-      "inputPricePerMtok": 2.0,
-      "outputPricePerMtok": 12.0,
+      "tags": [
+        "chat",
+        "code",
+        "vision",
+        "reasoning",
+        "preview"
+      ],
+      "inputPricePerMtok": 2,
+      "outputPricePerMtok": 12,
       "contextWindow": 1048576,
-      "outputTokenLimit": 65536
+      "outputTokenLimit": 65536,
+      "provider": "google"
     }
   ],
   "providers": [
@@ -190,22 +274,59 @@
     }
   ],
   "recommendedModel": {
-    "extraction": [{ "provider": "anthropic", "model": "claude-sonnet-4-5" }],
-    "highlight": [{ "provider": "openai", "model": "gpt-4o" }]
+    "extraction": [
+      {
+        "provider": "anthropic",
+        "model": "claude-sonnet-4-5"
+      }
+    ],
+    "highlight": [
+      {
+        "provider": "openai",
+        "model": "gpt-4o"
+      }
+    ]
   },
   "recommendedCheapest": [
-    { "provider": "google", "model": "gemini-2.0-flash" },
-    { "provider": "openai", "model": "gpt-4o-mini" },
-    { "provider": "anthropic", "model": "claude-3-5-haiku" }
+    {
+      "provider": "google",
+      "model": "gemini-2.0-flash"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-3-5-haiku"
+    }
   ],
   "recommendedBalanced": [
-    { "provider": "anthropic", "model": "claude-sonnet-4-5" },
-    { "provider": "openai", "model": "gpt-4o" },
-    { "provider": "google", "model": "gemini-2.5-flash" }
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o"
+    },
+    {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    }
   ],
   "recommendedSmartest": [
-    { "provider": "anthropic", "model": "claude-opus-4-5" },
-    { "provider": "openai", "model": "o1" },
-    { "provider": "google", "model": "gemini-2.5-pro" }
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-5"
+    },
+    {
+      "provider": "openai",
+      "model": "o1"
+    },
+    {
+      "provider": "google",
+      "model": "gemini-2.5-pro"
+    }
   ]
 }

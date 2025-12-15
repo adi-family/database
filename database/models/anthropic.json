@@ -1,0 +1,26 @@
+[
+  {
+    "model": "claude-sonnet-4-5",
+    "tags": ["chat", "code", "vision"],
+    "inputPricePerMtok": 3.0,
+    "outputPricePerMtok": 15.0,
+    "contextWindow": 200000,
+    "outputTokenLimit": 64000
+  },
+  {
+    "model": "claude-opus-4-5",
+    "tags": ["chat", "code", "vision", "reasoning"],
+    "inputPricePerMtok": 5.0,
+    "outputPricePerMtok": 25.0,
+    "contextWindow": 200000,
+    "outputTokenLimit": 32000
+  },
+  {
+    "model": "claude-3-5-haiku",
+    "tags": ["chat", "code", "fast"],
+    "inputPricePerMtok": 1.0,
+    "outputPricePerMtok": 5.0,
+    "contextWindow": 200000,
+    "outputTokenLimit": 8192
+  }
+]
