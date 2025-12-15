@@ -11,6 +11,7 @@
       "outputPricePerMtok": 15,
       "contextWindow": 200000,
       "outputTokenLimit": 64000,
+      "minCacheTokens": 1024,
       "provider": "anthropic"
     },
     {
@@ -25,6 +26,7 @@
       "outputPricePerMtok": 25,
       "contextWindow": 200000,
       "outputTokenLimit": 32000,
+      "minCacheTokens": 1024,
       "provider": "anthropic"
     },
     {
@@ -38,6 +40,7 @@
       "outputPricePerMtok": 5,
       "contextWindow": 200000,
       "outputTokenLimit": 8192,
+      "minCacheTokens": 2048,
       "provider": "anthropic"
     },
     {
@@ -52,6 +55,7 @@
       "outputPricePerMtok": 14,
       "contextWindow": 400000,
       "outputTokenLimit": 128000,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -66,6 +70,7 @@
       "outputPricePerMtok": 168,
       "contextWindow": 400000,
       "outputTokenLimit": 128000,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -79,6 +84,7 @@
       "outputPricePerMtok": 2,
       "contextWindow": 400000,
       "outputTokenLimit": 128000,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -92,6 +98,7 @@
       "outputPricePerMtok": 12,
       "contextWindow": 1000000,
       "outputTokenLimit": 32768,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -105,6 +112,7 @@
       "outputPricePerMtok": 3.2,
       "contextWindow": 1000000,
       "outputTokenLimit": 32768,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -118,6 +126,7 @@
       "outputPricePerMtok": 0.8,
       "contextWindow": 1000000,
       "outputTokenLimit": 32768,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -131,6 +140,7 @@
       "outputPricePerMtok": 16,
       "contextWindow": 200000,
       "outputTokenLimit": 100000,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -144,6 +154,7 @@
       "outputPricePerMtok": 10,
       "contextWindow": 128000,
       "outputTokenLimit": 16384,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -157,6 +168,7 @@
       "outputPricePerMtok": 0.6,
       "contextWindow": 128000,
       "outputTokenLimit": 16384,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -170,6 +182,7 @@
       "outputPricePerMtok": 60,
       "contextWindow": 200000,
       "outputTokenLimit": 100000,
+      "minCacheTokens": 1024,
       "provider": "openai"
     },
     {
@@ -184,6 +197,7 @@
       "outputPricePerMtok": 0.3,
       "contextWindow": 1048576,
       "outputTokenLimit": 8192,
+      "minCacheTokens": 32768,
       "provider": "google"
     },
     {
@@ -197,6 +211,7 @@
       "outputPricePerMtok": 5,
       "contextWindow": 2097152,
       "outputTokenLimit": 8192,
+      "minCacheTokens": 32768,
       "provider": "google"
     },
     {
@@ -211,6 +226,7 @@
       "outputPricePerMtok": 10,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536,
+      "minCacheTokens": 4096,
       "provider": "google"
     },
     {
@@ -225,6 +241,7 @@
       "outputPricePerMtok": 2.5,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536,
+      "minCacheTokens": 1024,
       "provider": "google"
     },
     {
@@ -238,6 +255,7 @@
       "outputPricePerMtok": 0.3,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536,
+      "minCacheTokens": 1024,
       "provider": "google"
     },
     {
@@ -253,6 +271,7 @@
       "outputPricePerMtok": 12,
       "contextWindow": 1048576,
       "outputTokenLimit": 65536,
+      "minCacheTokens": 2048,
       "provider": "google"
     }
   ],

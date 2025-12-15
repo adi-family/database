@@ -5,7 +5,8 @@
     "inputPricePerMtok": 3.0,
     "outputPricePerMtok": 15.0,
     "contextWindow": 200000,
-    "outputTokenLimit": 64000
+    "outputTokenLimit": 64000,
+    "minCacheTokens": 1024
   },
   {
     "model": "claude-opus-4-5",
@@ -13,7 +14,8 @@
     "inputPricePerMtok": 5.0,
     "outputPricePerMtok": 25.0,
     "contextWindow": 200000,
-    "outputTokenLimit": 32000
+    "outputTokenLimit": 32000,
+    "minCacheTokens": 1024
   },
   {
     "model": "claude-3-5-haiku",
@@ -21,6 +23,7 @@
     "inputPricePerMtok": 1.0,
     "outputPricePerMtok": 5.0,
     "contextWindow": 200000,
-    "outputTokenLimit": 8192
+    "outputTokenLimit": 8192,
+    "minCacheTokens": 2048
   }
 ]

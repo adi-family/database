@@ -5,7 +5,8 @@
     "inputPricePerMtok": 1.75,
     "outputPricePerMtok": 14.0,
     "contextWindow": 400000,
-    "outputTokenLimit": 128000
+    "outputTokenLimit": 128000,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-5.2-pro",
@@ -13,7 +14,8 @@
     "inputPricePerMtok": 21.0,
     "outputPricePerMtok": 168.0,
     "contextWindow": 400000,
-    "outputTokenLimit": 128000
+    "outputTokenLimit": 128000,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-5-mini",
@@ -21,7 +23,8 @@
     "inputPricePerMtok": 0.25,
     "outputPricePerMtok": 2.0,
     "contextWindow": 400000,
-    "outputTokenLimit": 128000
+    "outputTokenLimit": 128000,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-4.1",
@@ -29,7 +32,8 @@
     "inputPricePerMtok": 3.0,
     "outputPricePerMtok": 12.0,
     "contextWindow": 1000000,
-    "outputTokenLimit": 32768
+    "outputTokenLimit": 32768,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-4.1-mini",
@@ -37,7 +41,8 @@
     "inputPricePerMtok": 0.8,
     "outputPricePerMtok": 3.2,
     "contextWindow": 1000000,
-    "outputTokenLimit": 32768
+    "outputTokenLimit": 32768,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-4.1-nano",
@@ -45,7 +50,8 @@
     "inputPricePerMtok": 0.2,
     "outputPricePerMtok": 0.8,
     "contextWindow": 1000000,
-    "outputTokenLimit": 32768
+    "outputTokenLimit": 32768,
+    "minCacheTokens": 1024
   },
   {
     "model": "o4-mini",
@@ -53,7 +59,8 @@
     "inputPricePerMtok": 4.0,
     "outputPricePerMtok": 16.0,
     "contextWindow": 200000,
-    "outputTokenLimit": 100000
+    "outputTokenLimit": 100000,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-4o",
@@ -61,7 +68,8 @@
     "inputPricePerMtok": 2.5,
     "outputPricePerMtok": 10.0,
     "contextWindow": 128000,
-    "outputTokenLimit": 16384
+    "outputTokenLimit": 16384,
+    "minCacheTokens": 1024
   },
   {
     "model": "gpt-4o-mini",
@@ -69,7 +77,8 @@
     "inputPricePerMtok": 0.15,
     "outputPricePerMtok": 0.6,
     "contextWindow": 128000,
-    "outputTokenLimit": 16384
+    "outputTokenLimit": 16384,
+    "minCacheTokens": 1024
   },
   {
     "model": "o1",
@@ -77,6 +86,7 @@
     "inputPricePerMtok": 15.0,
     "outputPricePerMtok": 60.0,
     "contextWindow": 200000,
-    "outputTokenLimit": 100000
+    "outputTokenLimit": 100000,
+    "minCacheTokens": 1024
   }
 ]

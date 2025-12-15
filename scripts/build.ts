@@ -18,6 +18,7 @@ interface Model {
   outputPricePerMtok: number;
   contextWindow: number;
   outputTokenLimit: number;
+  minCacheTokens: number;
 }
 
 interface ModelWithProvider extends Model {

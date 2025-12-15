@@ -5,7 +5,8 @@
     "inputPricePerMtok": 0.075,
     "outputPricePerMtok": 0.3,
     "contextWindow": 1048576,
-    "outputTokenLimit": 8192
+    "outputTokenLimit": 8192,
+    "minCacheTokens": 32768
   },
   {
     "model": "gemini-1.5-pro",
@@ -13,7 +14,8 @@
     "inputPricePerMtok": 1.25,
     "outputPricePerMtok": 5.0,
     "contextWindow": 2097152,
-    "outputTokenLimit": 8192
+    "outputTokenLimit": 8192,
+    "minCacheTokens": 32768
   },
   {
     "model": "gemini-2.5-pro",
@@ -21,7 +23,8 @@
     "inputPricePerMtok": 1.25,
     "outputPricePerMtok": 10.0,
     "contextWindow": 1048576,
-    "outputTokenLimit": 65536
+    "outputTokenLimit": 65536,
+    "minCacheTokens": 4096
   },
   {
     "model": "gemini-2.5-flash",
@@ -29,7 +32,8 @@
     "inputPricePerMtok": 0.30,
     "outputPricePerMtok": 2.50,
     "contextWindow": 1048576,
-    "outputTokenLimit": 65536
+    "outputTokenLimit": 65536,
+    "minCacheTokens": 1024
   },
   {
     "model": "gemini-2.5-flash-lite",
@@ -37,7 +41,8 @@
     "inputPricePerMtok": 0.075,
     "outputPricePerMtok": 0.3,
     "contextWindow": 1048576,
-    "outputTokenLimit": 65536
+    "outputTokenLimit": 65536,
+    "minCacheTokens": 1024
   },
   {
     "model": "gemini-3-pro-preview",
@@ -45,6 +50,7 @@
     "inputPricePerMtok": 2.0,
     "outputPricePerMtok": 12.0,
     "contextWindow": 1048576,
-    "outputTokenLimit": 65536
+    "outputTokenLimit": 65536,
+    "minCacheTokens": 2048
   }
 ]
